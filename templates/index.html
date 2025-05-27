@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>肠癌智筛宝</title> <!-- 页面标题 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>肠癌智筛宝</h1> <!-- 页面大标题 -->
+
+    <div class="form-container">
+        <input type="text" id="patientIdInput" placeholder="请输入患者ID">
+        <input type="number" id="ctDNAInput" placeholder="请输入ctDNA值 (%)">
+        <button id="submitButton">提交并获取个性化中医疗法推荐</button>
+    </div>
+
+    <div class="result-container">
+        <h2>推荐方案</h2>
+        <p id="recommendationOutput">等待提交...</p>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
+
