@@ -17,13 +17,19 @@ Colorectal Cancer Smart Screening is a web application designed to recommend Tra
 ## 项目结构 / Project Structure
 
 ```
-project_root/
-├── templates/
-│   ├── index.html       # 主页面 Main page
-│   ├── style.css        # 样式文件 Style file
-│   └── script.js        # 前端逻辑 Frontend logic
-├── app.py               # Flask 后端主程序 Flask backend main app
-└── requirements.txt     # 依赖文件 Dependencies
+colorectal_tcm_project/
+│
+├── backend/                             # 后端代码目录 / Backend code directory
+│   └── backend.py                      # Flask 后端主程序 / Main Flask backend script
+│
+├── templates/                          # 前端HTML模板 / Frontend HTML templates
+│   └── index.html                     # 网站首页 / Main webpage
+│
+├── static/                            # 前端静态资源 / Frontend static resources
+│   ├── style.css                     # CSS样式文件 / CSS stylesheet
+│   └── script.js                     # 前端交互脚本 / Frontend JavaScript
+│
+├── README.md                         # 项目说明文档 / Project description file
 ```
 
 ## 部署步骤 / Deployment Steps
