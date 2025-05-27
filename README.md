@@ -88,6 +88,11 @@ fetch('https://your-ngrok-url.ngrok-free.app/recommend', {
 - 打开浏览器访问 ngrok 提供的网址 / Visit the ngrok public URL in your browser.
 - 输入信息并点击推荐按钮 / Fill in the information and click the recommendation button.
 
+### 8. 后续改进方向 / Upgrading of the projects
+
+- 部署在小程序端, Deployment on the wechat as miniprogram
+- 后端推荐算法融入病人的面相信息(图像识别算法), Integration of personal info of the patients, e.g. constitution type, facial symptoms etc.
+
 ## 注意事项 / Notes
 
 - 请确保前后端接口使用 HTTPS，避免混合内容导致请求失败。
